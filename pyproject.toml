@@ -1,0 +1,12 @@
+[project]
+name = "universal-converter"
+version = "1.0.0"
+description = "Universal Unit Converter & Math App"
+requires-python = ">=3.9"
+dependencies = [
+    "flet==0.28.3"
+]
+
+[tool.flet]
+# Live Currency එකට Internet Permission එක Flet එකෙන්ම Auto දෙනවා!
+# ඒ නිසා මේකෙ වෙනස් කරන්න දෙයක් නෑ!
